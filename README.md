@@ -224,11 +224,7 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 
   2. Quando sua instância estiver no ar e você estiver conectado a ela, digite `exit`. Com isso, você voltará ao terminal para iniciar a importação dos dados.
 
-  3. Na raiz do diretório do projeto, execute o seguinte comando para restaurar a base de dados `commerce`:
-    
-    ```bash
-    DBNAME=commerce ./scripts/resetdb.sh assets/produtos
-    ```
+  3. Na raiz do diretório do projeto, execute o seguinte comando no terminal para restaurar a base de dados `commerce`: `DBNAME=commerce ./scripts/resetdb.sh assets/produtos`. O mesmo comando deve ser utilizado dentro do container, para quem estiver usando docker.
 
   - A execução desse script criará um banco de dados chamado `commerce` e importará os dados para a coleção `produtos`.
 
