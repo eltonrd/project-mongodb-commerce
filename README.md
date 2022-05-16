@@ -225,7 +225,8 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
   2. Quando sua instância estiver no ar e você estiver conectado a ela, digite `exit`. Com isso, você voltará ao terminal para iniciar a importação dos dados.
 
   3. Na raiz do diretório do projeto, execute o seguinte comando para restaurar a base de dados `commerce`:
-    ```sh
+    
+    ```bash
     DBNAME=commerce ./scripts/resetdb.sh assets/produtos
     ```
 
